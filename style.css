@@ -8,25 +8,24 @@
 }
 
 * body {
-    background-color: black;
+    background-color: white;
     font-family: sans-serif;
     
     
 }
 
 .container{
-    background-color: white;
-    height: auto;
-    width: auto;
+    background-color: black;
+    height: 100px;
+    max-width: 50%;
+    margin: auto;
     
     display: flex;
     flex-direction: column;
-    
-    
+
     
 
 }
-
 
 .header {
     border: 2px solid black;
@@ -77,14 +76,16 @@
 }
 
 .main__image1 {
-    margin: auto;
+    max-width: 100%;
+    
     
    
 
 }
 
-
-
+img {
+    max-width: 100%;
+}
 
 .footer{
     color:tomato;
