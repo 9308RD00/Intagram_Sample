@@ -15,11 +15,11 @@
 }
 
 .container{
-    background-color: whitesmoke;
-    height: 4200px;
+    
+    height: 420px;
     max-width: 50%;
     margin: auto;
-    
+    padding: 15px;
     display: flex;
     flex-direction: column;
     
